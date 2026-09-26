@@ -1,0 +1,26 @@
+# 패키지 및 빌드 아티팩트 제외 (도커 내부에서 새로 설치 및 빌드)
+node_modules
+.next
+out
+build
+dist
+
+# 형상 관리 및 IDE 파일 제외
+.git
+.gitignore
+.vscode
+.idea
+
+# 환경 변수 및 민감 정보 제외
+.env*
+!.env.example
+
+# 로그 및 OS 임시 파일 제외
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.DS_Store
+
+# 문서 및 불필요 파일
+README.md
